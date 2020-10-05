@@ -20,12 +20,12 @@ Then simply run the file with this format:
 sh swap <size>
 ```
 
-Example (with 4G):
+Example (with 2G):
 ```
-sh swap 4G
+sh swap 2G
 ```
 
 The default path for the swap file is /swapfile. If you wish to change this, simple the file location (file must not exist) add it to the command:
 ```
-sh swap 4G /swap
+sh swap 2G /swap
 ```
